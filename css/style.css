@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+.links{
+    padding-left: 0px;
+    text-align: center;
+}
+.header{
+    padding-left: 150px;
+    text-align: left;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 60px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin-left: -1%;
+    padding: 0;
+    background-color: #E34234; 
+    color: #ffffff;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 20px;
+    list-style: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0px 0px 0px 15px;
+}
+.nav > li{
+    text-align: left;
+    display: block;
+    padding: 0px 5px 5px 0px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.nav > :nth-child(1) {
+    text-align: left;
+    font-size: 45px;
+}
+.nav > :nth-child(2) {
+    font-style: italic;
+    padding-bottom: 15px;
+}
+.nav > :nth-child(3){  /*contact info */
+    text-align: left;
+    padding:0 0 0 10px;
+    margin-left: -1%;
+    font-size: 25px;
+    background-color: #c5372b;
+}
+.nav > :nth-child(4){ /*link icons */
+    text-align: center;
+    font-size: 25px;
+}
+.nav > :nth-child(6){ /*Technical Skills */
+    text-align: left;
+    margin-left: -1%;
+    font-size: 25px;
+    padding:0 0 0 10px;
+    margin-top: -5px;
+    background-color: #c5372b ;
+}
+.nav > :nth-child(7){ /* Java */
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+    margin-top: 5px;
+}
+.nav > :nth-child(8){ /* Java progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(9){ /* Expert */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(10){ /* C# */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(11){ /* C# progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(12){ /* Expert */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(13){ /* HTML/CSS */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(14){ /* HTML/CSS progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(15){ /* Experienced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(16){ /* JavaScript */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(17){ /* JavaScript progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(18){ /* Experienced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(19){ /* Unity */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(20){ /* Unity progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(21){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(22){ /* Android Studio */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(23){ /* Android Studio progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(24){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(25){ /*Soft Skills */
+    text-align: left;
+    margin-left: -1%;
+    font-size: 25px;
+    padding:0 0 0 10px;
+    background-color: #c5372b ;
+}
+.nav > :nth-child(26){ /* Time Management */
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(27){ /* Time Management progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(28){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(29){ /* Communication */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(30){ /* Communication progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(31){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(32){ /* Efficency */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(33){ /* Efficency progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(34){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(35){ /* Adaptability */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(36){ /* Adaptability progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(37){ /* Advanced */
+    text-align: right;
+    font-size: 15px;
+}
+.nav > :nth-child(38){ /* Leadership */
+    margin-top: -10px;
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+    padding:0 0 0 10px;
+    margin-bottom: -15px;
+}
+.nav > :nth-child(39){ /* Leadership  progress bar */
+    font-size: 25px;
+}
+.nav > :nth-child(40){ /* Leadership Ethic */
+    text-align: right;
+    font-size: 15px;
+}
+progress {
+    border: none;
+    width: 100px;
+    height: 8px;
+    background: crimson;
+}
+progress::-webkit-progress-value {
+    background: #F6ECEC;
+}
+progress::-webkit-progress-bar {
+    background: #B03126;
+}
+.Maze3D{
+    float: left;
+    padding-left: 350px;
+    padding-right: 50px;
+}
+.JuliaSet{
+    float: left;
+    padding-right: 50px;
+}
+.BinaryTree{
+    padding-left: 350px;
+}
+body{
+    background-color: #f8f9f9 ;
+}
+.AboutMe{
+    padding-left: 350px;
+    font-family: "Consolas", Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+    padding-top: 75px;
+    background-color: #292f30;
+    color: #E7E7E7;
+}
+.AboutMeParagraph{
+    padding-left: 350px;
+    padding-bottom: 50px;
+    margin-top: -30px;
+    font-family: "Consolas", Times, serif;
+    color: #E7E7E7;
+    background-color: #292f30;
+    font-size: 17px;
+}
+.AboutMeList > li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.AboutMeList > :nth-child(even)
+{
+    padding-left: 50px;
+}
+.AboutMeList > :nth-child(odd)
+{
+    padding-left: 100px;
+}
+.AboutMeList > :nth-child(1)
+{
+    padding-left: 50px;
+}
+.AboutMeList > :nth-child(13){
+    padding-left: 50px;
+    font-size: 30px;
+}
+.Education{
+    padding-left: 1000px;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 46px;
+    background-color: #5bbce4;
+    color: #E7E7E7;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+.EducationContainer{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: .5em;
+    margin-top: -20px;
+    color: #E7E7E7;
+    background-color: #5bbce4;
+    font-family: "Cormorant Garamond", Times, serif;
+    column-count: 2;
+    column-width: 100px;
+    padding-left: 580px;
+}
+.HScol{
+    font-size: 30px;
+    font-weight: bold;
+}
+.CollegeCol{
+    font-size: 30px;
+    font-weight: bold;
+}
+.HSlist{
+    padding-right: 275px;
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 15px;
+    font-size: 21px;
+    font-weight: 100;
+}
+.Collist{
+    padding-right: 275px;
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-weight: 100;
+}
+.HSlist > :nth-child(even){
+    padding-top: 3px;
+}
+.HSlist > :nth-child(odd){
+    padding-top: 3px;
+}
+.Collist > :nth-child(even){
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.Collist > :nth-child(odd){
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.Collist > :nth-child(4){
+    margin-bottom: 120px;
+}
+.HSlist > li:before {
+    content: "–";
+    position: absolute;
+    margin-left: -1.1em; 
+}
+.Collist > li:before {
+    content: "–";
+    position: absolute;
+    margin-left: -1.1em; 
+}
+.EduFiller{
+    margin-top: -20px;
+    background-color: #5bbce4;
+}
+.Skills{
+    padding-left: 1050px;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 46px;
+    background-color: #2faadd;
+    color: #E7E7E7;
+    margin-top: -16px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.carousel-color{
+    position: absolute;
+    background-color: #2faadd;
+    width: 100%;
+    height: 600px;
+    top: 1095px;
+    z-index: -10;
+    margin-left: -1%;
+}
+.carousel-container{
+    width: 300px;
+    height: 300px;
+    margin-left: 950px;
+    background-color: #2faadd;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #2faadd; 
+}
+.prevBtn{
+    position: absolute;
+    left: 900px;
+    top: 1275px;
+    font-size: 35px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: #E7E7E7;
+    cursor: pointer;
+}
+.nextBtn{
+    position: absolute;
+    left: 1275px;
+    top: 1275px;
+    font-size: 35px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: #E7E7E7;
+    cursor: pointer;
+}
+.skillDescription{
+    padding-left: 450px;
+    text-align: justify;
+    text-align: center;
+    color: #E7E7E7;
+    width: 1300px;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 30px;
+}
+.CardContainer{
+    background-color: #0099CC;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    height:500px;
+}
+.Projects{
+    padding-left: 350px;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #E7E7E7;
+}
+.project-carousel-container{
+    width: 600px;
+    height: 250px;
+    margin-left: 815px;
+    background-color: #0099CC;
+    overflow: hidden;
+}
+.project-carousel-slide{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    background-color: #0099CC;
+}
+.project-prevBtn{
+    position: absolute;
+    left: 777px;
+    top: 1910px;    
+    font-size: 35px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: #E7E7E7;
+    cursor: pointer;
+}
+.project-nextBtn{
+    position: absolute;
+    left: 1425px;
+    top: 1910px;
+    font-size: 35px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: #E7E7E7;
+    cursor: pointer;
+}
+.projectDescription{
+    margin-top: -20px;
+    font-size: 35px;
+    color: #E7E7E7;
+    padding-left: 450px;
+    text-align: justify;
+    text-align: center;
+    width: 1300px;
+}
+.Fun{
+    background-color: #007399;
+    margin-top: -30px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: #E7E7E7;
+    padding-left: 350px;
+    font-family: "Cormorant Garamond", Times, serif;
+    font-size: 46px;
+}
+.funTitle{
+    margin-bottom: 35px;
+}
+.travelTitle{
+    font-family: "Balsamiq Sans", Times, serif;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 2px;
+}
+.swedishTitle{
+    padding-top: 25px;
+    font-family: "Balsamiq Sans", Times, serif;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+}
+.swedish{
+    font-family: "Balsamiq Sans", Times, serif;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+.bullet{
+    font-size: 26px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #E7E7E7;
+    font-family: "Balsamiq Sans", Times, serif;
+}
+.cooking{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Balsamiq Sans", Times, serif;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+    float: left;
+}
+.macaroon:visited, .macaroon:hover,.macaroon:active,.macaroon:link{
+    color: #d69256;
+}
+.sYellow{
+    background-color: transparent;
+    color: #FFCD00;
+}
+.swed:visited, .swed:hover,.swed:active,.swed:link{
+    color: #FFCD00;
+}
+.biking{
+    font-family: "Balsamiq Sans", Times, serif;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+}
+.subText{
+    font-size: 24px;
+    color: #E7E7E7;
+    background-color: transparent;
+}
+.worldMap{
+    float: left;
+}
+.lightBlue{
+    background-color: #292f30;
+    color:#add8e6; 
+}
+.lightYellow{
+    background-color: #292f30;
+    color: #FFFFE0;
+}
+.turq{
+    background-color: #292f30;
+    color: #4EC9B0;
+}
+.blue{
+    background-color: #292f30;
+    color: #569CD6;     
+}
